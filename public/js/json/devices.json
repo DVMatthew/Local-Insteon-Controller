@@ -1,0 +1,201 @@
+{
+    "devices": [{
+        "name": "Dining Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Ma's PC Room",
+        "onLink": "http://192.168.1.103:25105/3?0262274E6A0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?0262274E6A0F13FF=I=3",
+        "id": "274E6A"
+    }, {
+        "name": "Main Kitchen Lighting",
+        "onLink": "http://192.168.1.103:25105/3?026243A3E10F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?026243A3E10F13FF=I=3",
+        "id": "43A3E1"
+    }, {
+        "name": "Kitchen Pendant Lights",
+        "onLink": "http://192.168.1.103:25105/3?02623CF2CF0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02623CF2CF0F13FF=I=3",
+        "id": "3CF2CF"
+    }, {
+        "name": "Living Room",
+        "onLink": "http://192.168.1.103:25105/3?02623D13470F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02623D13470F13FF=I=3",
+        "id": "3D1347"
+    }, {
+        "name": "Ma's PC Room",
+        "onLink": "http://192.168.1.103:25105/3?0262274E6A0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?0262274E6A0F13FF=I=3",
+        "id": "274E6A"
+    }, {
+        "name": "Ma's PC Room",
+        "onLink": "http://192.168.1.103:25105/3?026227436A0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?026227436A0F13FF=I=3",
+        "id": "27436A"
+    }, {
+        "name": "Porch Light",
+        "onLink": "http://192.168.1.103:25105/3?026243A5CD0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?026243A5CD0F13FF=I=3",
+        "id": "43A5CD"
+    }, {
+        "name": "Dining Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Family Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF61B0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02623CF61B0F13FF=I=3",
+        "id": "3CF61B"
+    }, {
+        "name": "",
+        "onLink": "http://192.168.1.103:25105/3?02620F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02620F13FF=I=3",
+        "id": ""
+    }, {
+        "name": "Test Device",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Test 2",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "modalId": "CFCF",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Main Kitchen Lighting",
+        "onLink": "http://192.168.1.103:25105/3?026243A3E10F11FF=I=3",
+        "modalId": "AE",
+        "offLink": "http://192.168.1.103:25105/3?026243A3E10F13FF=I=3",
+        "id": "43A3E1"
+    }, {
+        "name": "Kitchen Pendant Lights",
+        "onLink": "http://192.168.1.103:25105/3?02623CF2CF0F11FF=I=3",
+        "modalId": "CFCF",
+        "offLink": "http://192.168.1.103:25105/3?02623CF2CF0F13FF=I=3",
+        "id": "3CF2CF"
+    }, {
+        "name": "Living Room",
+        "onLink": "http://192.168.1.103:25105/3?02623D13470F11FF=I=3",
+        "modalId": "D",
+        "offLink": "http://192.168.1.103:25105/3?02623D13470F13FF=I=3",
+        "id": "3D1347"
+    }, {
+        "name": "Ma's PC Room",
+        "onLink": "http://192.168.1.103:25105/3?0262274E6A0F11FF=I=3",
+        "modalId": "EA",
+        "offLink": "http://192.168.1.103:25105/3?0262274E6A0F13FF=I=3",
+        "id": "274E6A"
+    }, {
+        "name": "Porch Light",
+        "onLink": "http://192.168.1.103:25105/3?026243A5CD0F11FF=I=3",
+        "modalId": "ACD",
+        "offLink": "http://192.168.1.103:25105/3?026243A5CD0F13FF=I=3",
+        "id": "43A5CD"
+    }, {
+        "name": "Dining Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "modalId": "CFCF",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Family Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF61B0F11FF=I=3",
+        "modalId": "CFB",
+        "offLink": "http://192.168.1.103:25105/3?02623CF61B0F13FF=I=3",
+        "id": "3CF61B"
+    }, {
+        "name": "Family Room Low Part Outlet",
+        "onLink": "http://192.168.1.103:25105/3?02624403630F11FF=I=3",
+        "modalId": "",
+        "offLink": "http://192.168.1.103:25105/3?02624403630F13FF=I=3",
+        "id": "440363"
+    }, {
+        "name": "Family Room Low Part Outlet",
+        "onLink": "http://192.168.1.103:25105/3?02624403630F11FF=I=3",
+        "modalId": "",
+        "offLink": "http://192.168.1.103:25105/3?02624403630F13FF=I=3",
+        "id": "440363"
+    }, {
+        "name": "Dining Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "modalId": "CFCF",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Family Room",
+        "onLink": "http://192.168.1.103:25105/3?02623CF61B0F11FF=I=3",
+        "modalId": "CFB",
+        "offLink": "http://192.168.1.103:25105/3?02623CF61B0F13FF=I=3",
+        "id": "3CF61B"
+    }, {
+        "name": "Porch Lights",
+        "onLink": "http://192.168.1.103:25105/3?026243A5CD0F11FF=I=3",
+        "modalId": "ACD",
+        "offLink": "http://192.168.1.103:25105/3?026243A5CD0F13FF=I=3",
+        "id": "43A5CD"
+    }, {
+        "name": "Living Room Lamp",
+        "onLink": "http://192.168.1.103:25105/3?0262274E6A0F11FF=I=3",
+        "modalId": "EA",
+        "offLink": "http://192.168.1.103:25105/3?0262274E6A0F13FF=I=3",
+        "id": "274E6A"
+    }, {
+        "name": "Living Room",
+        "onLink": "http://192.168.1.103:25105/3?02623D13470F11FF=I=3",
+        "modalId": "D",
+        "offLink": "http://192.168.1.103:25105/3?02623D13470F13FF=I=3",
+        "id": "3D1347"
+    }, {
+        "name": "Kitchen Main Lights",
+        "onLink": "http://192.168.1.103:25105/3?026243A3E10F11FF=I=3",
+        "modalId": "AE",
+        "offLink": "http://192.168.1.103:25105/3?026243A3E10F13FF=I=3",
+        "id": "43A3E1"
+    }, {
+        "name": "Kitchen Pendant Lights",
+        "onLink": "http://192.168.1.103:25105/3?026243A3E10F11FF=I=3",
+        "modalId": "AE",
+        "offLink": "http://192.168.1.103:25105/3?026243A3E10F13FF=I=3",
+        "id": "43A3E1"
+    }, {
+        "name": "My Room",
+        "onLink": "http://192.168.1.103:25105/3?026243.43.FF0F11FF=I=3",
+        "modalId": "..FF",
+        "offLink": "http://192.168.1.103:25105/3?026243.43.FF0F13FF=I=3",
+        "id": "43.43.FF"
+    }, {
+        "name": "Room",
+        "onLink": "http://192.168.1.103:25105/3?02624343FF0F11FF=I=3",
+        "modalId": "FF",
+        "offLink": "http://192.168.1.103:25105/3?02624343FF0F13FF=I=3",
+        "id": "4343FF"
+    }, {
+        "name": "Kitchen Pendant Lights",
+        "onLink": "http://192.168.1.103:25105/3?026243.A5.CD0F11FF=I=3",
+        "modalId": ".A.CD",
+        "offLink": "http://192.168.1.103:25105/3?026243.A5.CD0F13FF=I=3",
+        "id": "43.A5.CD"
+    }, {
+        "name": "Kitchen Main Lights",
+        "onLink": "http://192.168.1.103:25105/3?026243A3E10F11FF=I=3",
+        "modalId": "AE",
+        "offLink": "http://192.168.1.103:25105/3?026243A3E10F13FF=I=3",
+        "id": "43A3E1"
+    }, {
+        "name": "Room Lights",
+        "onLink": "http://192.168.1.103:25105/3?02623CF4CF0F11FF=I=3",
+        "modalId": "CFCF",
+        "offLink": "http://192.168.1.103:25105/3?02623CF4CF0F13FF=I=3",
+        "id": "3CF4CF"
+    }, {
+        "name": "Matthew Room",
+        "onLink": "http://192.168.1.103:25105/3?02624343FF0F11FF=I=3",
+        "modalId": "FF",
+        "offLink": "http://192.168.1.103:25105/3?02624343FF0F13FF=I=3",
+        "id": "4343FF"
+    }]
+}
