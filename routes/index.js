@@ -53,6 +53,44 @@ router.post("/on", (req, res) => {
 
 })
 
+router.post("/spotOn", (req, res) => {
+    var DEVICE_ID = "4343FF"
+    var ON_LINK = `${HUB_URL}/3?0262${DEVICE_ID}0F11FF=I=3`;
+
+    const time = new Date().toLocaleTimeString();
+
+    const options =  {
+        headers: {'Authorization': 'Basic TXVnZ2xlc3c6bEZLalFFQWI='}
+    }
+
+    axios.post(ON_LINK, {}, options).then((response) => {
+        console.log(`Time Stamp: ${time} \nDevice: ${DEVICE_ID} is now ON`);
+        res.redirect("/");
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+});
+
+router.post("/spotOff", (req, res) => {
+    var DEVICE_ID = "4343FF"
+    var ON_LINK = `${HUB_URL}/3?0262${DEVICE_ID}0F13FF=I=3`;
+
+    const time = new Date().toLocaleTimeString();
+
+    const options =  {
+        headers: {'Authorization': 'Basic TXVnZ2xlc3c6bEZLalFFQWI='}
+    }
+
+    axios.post(ON_LINK, {}, options).then((response) => {
+        console.log(`Time Stamp: ${time} \nDevice: ${DEVICE_ID} is now ON`);
+        res.redirect("/");
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+});
+
 router.post("/command", (req, res) => {
     var DEVICE_ID = req.body.deviceID;
     res.render("command")
@@ -79,7 +117,7 @@ router.post("/command", (req, res) => {
         console.log(response)
     })
     .catch((err) => {
-
+        console.log(err);
     });
 
 });
@@ -97,7 +135,7 @@ router.post("/dim", (req, res) => {
         console.log(response)
     })
     .catch((err) => {
-
+        console.log(err);
     });
 
 });
