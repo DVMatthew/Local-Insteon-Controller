@@ -34,24 +34,25 @@ function scheduleDevice(time, off, device, complete) {
 }
 
 setInterval(() => {
+
     document.getElementById("onForm").addEventListener("click", (e) => {
         e.preventDefault();
     });
     
     // Spotlight
-    scheduleDevice(19001, false, "5617CC");
-    scheduleDevice(23001, true, "5617CC");
+    scheduleDevice(1901, false, "5617CC");
+    scheduleDevice(2201, true, "5617CC");
 
     // Landscape Lights
-    scheduleDevice(19002, false, "5618B3");
-    scheduleDevice(23002, true, "5618B3");
+    scheduleDevice(1902, false, "5618B3");
+    scheduleDevice(2202, true, "5618B3");
 
     // Porch Light
-    scheduleDevice(19003, false, "43A5CD");
-    scheduleDevice(7003, true, "43A5CD");
+    scheduleDevice(1901, false, "43A5CD");
+    scheduleDevice(702, true, "43A5CD");
 
     // Shed Outdoor Lights
-    scheduleDevice(19004, false, "5103CF");
-    scheduleDevice(23004, true, "5103CF");
+    scheduleDevice(20214, false, "5103CF");
+    scheduleDevice(2304, true, "5103CF");
 
 }, 700);

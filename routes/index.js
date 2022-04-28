@@ -30,29 +30,6 @@ router.get("/command", (req, res) => {
     res.render("command");
 })
 
-
-
-router.post("/on", (req, res) => {
-    var DEVICE_ID = req.body.deviceID;
-    var ON_LINK = `${HUB_URL}/3?0262${DEVICE_ID}0F11FF=I=3`;
-
-    const time = new Date().toLocaleTimeString();
-
-    const options =  {
-        headers: {'Authorization': 'Basic TXVnZ2xlc3c6bEZLalFFQWI='}
-    }
-
-    axios.post(ON_LINK, {}, options).then((response) => {
-        console.log(`Time Stamp: ${time} \nDevice: ${DEVICE_ID} is now ON`);
-        res.redirect("/");
-    })
-    .catch((err) => {
-        console.log(err);
-    });
-
-
-})
-
 router.post("/spotOn", (req, res) => {
     var DEVICE_ID = "4343FF"
     var ON_LINK = `${HUB_URL}/3?0262${DEVICE_ID}0F11FF=I=3`;
@@ -161,4 +138,24 @@ router.post("/off", (req, res) => {2
 
 })
 
+router.post("/on", (req, res) => {
+    var DEVICE_ID = req.body.deviceID;
+    var ON_LINK = `${HUB_URL}/3?0262${DEVICE_ID}0F11FF=I=3`;
+
+    const time = new Date().toLocaleTimeString();
+
+    const options =  {
+        headers: {'Authorization': 'Basic TXVnZ2xlc3c6bEZLalFFQWI='}
+    }
+
+    axios.post(ON_LINK, {}, options).then((response) => {
+        console.log(`Time Stamp: ${time} \nDevice: ${DEVICE_ID} is now ON`);
+        res.redirect("/");
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+
+
+})
 module.exports = router;
