@@ -3,7 +3,7 @@ var router = express.Router();
 var axios = require('axios');
 const { route } = require('express/lib/application');
 
-const HUB_URL = "http://192.168.1.6:25105";
+const HUB_URL = "http://192.168.1.29:25105";
 
 // const DEVICE_ID = "4343FF";
 

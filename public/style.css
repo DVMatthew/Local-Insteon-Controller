@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+#device-card {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 30px 20px;
+    height: 140px;
+    width: 320px;
+    border: 1px solid black;
+}
+
+#device-card h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#device-card form input {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+#device-card form button {
+    border-radius: 20px;
+}
+
+/* Device Add Section */
+
+#addDevice-card {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 30px 20px;
+    height: 170px;
+    width: 320px;
+    border: 1px solid black;
+}
+#addDevice-card  h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#addDevice-card  form input {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+#addDevice-card  form button {
+    border-radius: 20px;
+}
